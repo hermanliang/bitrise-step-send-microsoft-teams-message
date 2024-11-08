@@ -13,9 +13,9 @@ summary: |
   Send Microsoft Teams message to a channel
 description: |
   Send Microsoft Teams message to a channel
-website: https://github.com/maguhiro/bitrise-step-send-microsoft-teams-message
-source_code_url: https://github.com/maguhiro/bitrise-step-send-microsoft-teams-message
-support_url: https://github.com/maguhiro/bitrise-step-send-microsoft-teams-message/issues
+website: https://github.com/hermanliang/bitrise-step-send-microsoft-teams-message
+source_code_url: https://github.com/hermanliang/bitrise-step-send-microsoft-teams-message
+support_url: https://github.com/hermanliang/bitrise-step-send-microsoft-teams-message/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -28,7 +28,7 @@ is_skippable: true
 
 toolkit:
   go:
-    package_name: github.com/maguhiro/bitrise-step-send-microsoft-teams-message
+    package_name: github.com/hermanliang/bitrise-step-send-microsoft-teams-message
 
 
 inputs:
