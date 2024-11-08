@@ -3,7 +3,7 @@ This file is:
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Bitrise
+# Copyright (c) 2014 Bitrise
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -117,7 +117,7 @@ func postMessage(conf Config, msg Message) error {
 		}
 	}()
 
-	if resp.StatusCode != http.StatusOK {
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 		body, err := ioutil.ReadAll(resp.Body)
 		if err != nil {
 			return fmt.Errorf("server error: %s, failed to read response: %s", resp.Status, err)
